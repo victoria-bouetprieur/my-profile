@@ -1,0 +1,142 @@
+body {
+	background-color: #ff9e9e54;
+	color: 610C9F;
+	font-family: Libre Baskerville;
+	font-size: 400px;
+	margin: 40px;
+	text-align: center;
+}
+
+
+h1 {
+	color: 0802A3;
+	font-weight: 700;
+	letter-spacing: 10px;
+	font-size: 40px;
+	margin: 20px;
+	text-align: center;
+
+}
+
+h1,h2 {font-family: EB Garamond;
+}
+
+
+h2 {
+	color: #7752FE;
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 200;
+	text-align: center;
+}
+
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	margin: 30px;
+	color: #393eb6;
+	font-size: 12px;
+}
+
+a:hover {
+	color: grey;
+	text-align: center;
+}
+
+div {
+	background: #ffcdcd;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 60px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px rgba(122,82,68,1)
+	text-align: center;
+
+
+}
+
+div {
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	
+
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	
+}
+
+.card-white {
+	background-color: #f5909061;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(106,44,44,0.42);
+	border-radius:10px;
+	margin:20px 0px;
+    text-align: center;
+}
+
+.btn-blue{
+	background-color: #393eb6;
+	color: white;
+	padding: 5px 12px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+a{
+	background-color: orange;
+	color: white;
+	padding: 5px 12px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+
+a:hover {
+	background-color: red;
+	color: white;
+}
+
+#instroduction p {
+	margin-bottom: 40px
+
+}
+
+@media (max-width: 500px) {
+	.container {
+        width:400px ;
+	}
+	
+}
+
+
+@media (max-width: 760px) {
+	.container {
+        width:600px;
+	}
+	
+}
+
+p{
+	font-size: 20px;
+}
+
+#introduction p {
+     margin-bottom: 40px;
+}
+
+.ing-circle {
+	border-radius: 60%;
+}
+
+
